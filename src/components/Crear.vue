@@ -31,7 +31,7 @@ export default {
   methods: {
     crearTemp2: function () {
  
-axios.post('https://santi-hpsm.herokuapp.com/Temporada/crear/', {
+axios.post('https://backend-hotelseason.herokuapp.com/Temporada/crear/', {
   
   fecha_inicio: this.FechaIni,
   fecha_fin: this.FechaFin,

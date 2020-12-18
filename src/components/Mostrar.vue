@@ -32,7 +32,7 @@ export default {
   },
     beforeCreate: function() {
     axios
-      .get("https://santi-hpsm.herokuapp.com/Temporada/")
+      .get("https://backend-hotelseason.herokuapp.com/Temporada/")
       .then(respuesta => {
         this.temporadas = respuesta.data;
       })
